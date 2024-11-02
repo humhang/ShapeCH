@@ -6,6 +6,7 @@ The tool provides barycentric interpolation between an arbitrary number of struc
 
 The tool can generate a convex hull of shapes from the supplied basis geometries, with a specified sampling density.
 
+![sphubes](utils/sphube.png)
 ## Features
 
 - Ray-triangle intersection algorithm is GPU-acclerated using [Numba](https://numba.pydata.org/), enabling efficient computation on CUDA-capable NVIDIA GPUs.
