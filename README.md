@@ -1,8 +1,10 @@
-# didymus
+# ShapeCH
 
-Didymus is a Python tool that performs ray-tracing of STL files to produce surface representations on a regular, structured, Cartesian mesh.
+ShapeCH is a Python tool that performs ray-tracing of STL files to produce surface representations on a regular, structured, Cartesian mesh.
 
 The tool provides barycentric interpolation between an arbitrary number of structured representations to generate new, intermediate geometries.
+
+The tool can generate a convex hull of shapes from the supplied basis geometries, with a specified sampling density.
 
 ## Features
 
