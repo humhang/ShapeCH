@@ -36,7 +36,7 @@ for i,npy_file in enumerate(npy_files):
     scalar_field = interface.astype(np.float32)
     
     # extract interface using marching cubes
-    vertices, faces, normals, values = measure.marching_cubes(scalar_field, level=0.5)
+    vertices, faces, normals, values = measure.marching_cubes(scalar_field, level=0.5, step_size=8)
     mesh = trimesh.Trimesh(vertices=vertices, faces=faces)
     
     # export to a temporary STL file
